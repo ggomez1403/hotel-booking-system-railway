@@ -20,7 +20,7 @@ public class CorsConfig {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowCredentials(true);
-        configuration.addAllowedOrigin("https://ggomez1403.github.io/hotel-booking-angular/");
+        configuration.addAllowedOrigin("https://ggomez1403.github.io/");
         configuration.addAllowedHeader("*");
         configuration.addAllowedMethod("*");
         source.registerCorsConfiguration("/**", configuration);
