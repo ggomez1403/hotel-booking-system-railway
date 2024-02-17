@@ -21,6 +21,7 @@ public class CorsConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowCredentials(true);
         configuration.addAllowedOrigin("https://ggomez1403.github.io/");
+        configuration.addAllowedOrigin("https://hotel-booking-system-railway-production.up.railway.app/");
         configuration.addAllowedHeader("*");
         configuration.addAllowedMethod("*");
         source.registerCorsConfiguration("/**", configuration);
