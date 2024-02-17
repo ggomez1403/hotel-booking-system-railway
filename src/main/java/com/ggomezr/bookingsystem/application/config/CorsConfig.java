@@ -22,6 +22,8 @@ public class CorsConfig {
         configuration.setAllowCredentials(true);
         configuration.addAllowedOrigin("https://ggomez1403.github.io/");
         configuration.addAllowedOrigin("https://hotel-booking-system-railway-production.up.railway.app/");
+        configuration.addAllowedOrigin("http://localhost:4200/");
+        configuration.addAllowedOrigin("http://localhost:8080/");
         configuration.addAllowedHeader("*");
         configuration.addAllowedMethod("*");
         source.registerCorsConfiguration("/**", configuration);
